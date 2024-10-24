@@ -123,6 +123,7 @@ jobs:
       - name: '[preparation] docker login'
         uses: docker/login-action@v3.0.0
         with:
+          registry: docker.tool.psmtech.com.cn:8081
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_PASSWORD }}
       - name: '[preparation] set up docker context for buildx'
