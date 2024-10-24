@@ -21,7 +21,7 @@ on:
 
 env:
   DOCKER_HUB_REPO: docker.tool.psmtech.com.cn:8081/public/portainerci/portainer-ce
-  EXTENSION_HUB_REPO: portainerci/portainer-docker-extension
+  EXTENSION_HUB_REPO: docker.tool.psmtech.com.cn:8081/public/portainerci/portainer-docker-extension
   GO_VERSION: 1.21.11
   NODE_VERSION: 18.x
 
