@@ -164,3 +164,5 @@ jobs:
               "${EXTENSION_HUB_REPO}:${CONTAINER_IMAGE_TAG}-linux-amd64" \
               "${EXTENSION_HUB_REPO}:${CONTAINER_IMAGE_TAG}-linux-arm64"
           fi
+
+
